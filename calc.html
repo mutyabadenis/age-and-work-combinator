@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    
+    <h1>denis program</h1>
+    
+    <form>
+        <input type="number" value="0" id="age" />
+    </form>
+
+    <button onclick="tellMe()" id="btn">test</button>
+
+    <p id="demo"></p>
+    <p id="drop" style="display: none;">input your age</p>
+
+    <script>
+
+        function tellMe() {
+            var age, eligblity;
+            age = Number(document.getElementById('age').value);
+
+            advise = 'you so young, go back to sch plz';
+            work = 'you eligble for work, start now';
+
+            if (age>50)  {
+                eligblity= "Too old for work retire";
+            } else if (age<=0){
+             eligblity = "not born yet";
+            } else  {
+                eligblity = (age < 21) ? advise : work ;
+            }
+            document.getElementById('demo').innerHTML = eligblity;
+        }
+
+    </script>
+</body>
+
+</html>

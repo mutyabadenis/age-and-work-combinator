@@ -1,0 +1,82 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+body {
+    font: italic 1.5em/1.5 verdana;
+    background-color:#000;
+    color: #fff;
+}    
+
+
+h1 {margin-top: 100px;
+    text-align: center;
+font-variant: small-caps;
+color: #fff;
+}
+form {
+    position: relative;
+    text-align: center;
+    border: 10px #fff; 
+    margin: auto; 
+    padding: auto;
+}
+#age {
+    line-height: 50px;
+    background-color: #666;
+    width: 200px;
+    color:#fff ;
+}
+#age:focus {
+    background-color: #fff;
+    color: black;
+    font-weight: bold;
+    font-size: 35px;
+}
+ #btn{
+    position: absolute;
+    border: none;
+    margin-top: 15px; 
+margin-left: 600px;
+line-height: 30px;
+background-color: #666;
+color:#fff ;
+width: 150px;
+}
+p{
+    background-color: #fff;
+    color: black;
+    font-variant: small-caps;
+    text-align: center;
+    margin-top: 200px;
+    box-shadow:  0 8px 16px 0 #fff;
+}
+#btn:hover {
+    background-color: green;
+    color:#fff ;
+}
+#age:hover p#drop {
+display: block;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
